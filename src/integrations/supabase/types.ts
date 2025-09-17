@@ -286,6 +286,7 @@ export type Database = {
           id: number
           overall_score: number | null
           problem_solving_score: number | null
+          recommendations: string | null
           session_id: string | null
           technical_score: number | null
         }
@@ -296,6 +297,7 @@ export type Database = {
           id?: number
           overall_score?: number | null
           problem_solving_score?: number | null
+          recommendations?: string | null
           session_id?: string | null
           technical_score?: number | null
         }
@@ -306,6 +308,7 @@ export type Database = {
           id?: number
           overall_score?: number | null
           problem_solving_score?: number | null
+          recommendations?: string | null
           session_id?: string | null
           technical_score?: number | null
         }
