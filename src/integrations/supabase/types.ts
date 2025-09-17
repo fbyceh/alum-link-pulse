@@ -280,16 +280,34 @@ export type Database = {
       }
       interview_results: {
         Row: {
+          communication_score: number | null
           created_at: string
+          feedback_text: string | null
           id: number
+          overall_score: number | null
+          problem_solving_score: number | null
+          session_id: string | null
+          technical_score: number | null
         }
         Insert: {
+          communication_score?: number | null
           created_at?: string
+          feedback_text?: string | null
           id?: number
+          overall_score?: number | null
+          problem_solving_score?: number | null
+          session_id?: string | null
+          technical_score?: number | null
         }
         Update: {
+          communication_score?: number | null
           created_at?: string
+          feedback_text?: string | null
           id?: number
+          overall_score?: number | null
+          problem_solving_score?: number | null
+          session_id?: string | null
+          technical_score?: number | null
         }
         Relationships: []
       }
